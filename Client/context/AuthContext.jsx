@@ -16,7 +16,7 @@ const Authstate = (props) => {
       });
     };
 
-    const deleteToken = () => {
+     const deleteToken = () => {
       setToken(null);
       localStorage.removeItem("authinfo");
     };
